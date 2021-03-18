@@ -1,0 +1,139 @@
+/* Add here all your CSS customizations */
+// transition
+.layout-enter-active,
+.layout-leave-active {
+  transition: opacity 0.5s;
+}
+
+.layout-enter,
+.layout-leave-active {
+  opacity: 0;
+}
+
+.page-enter-active {
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: 500ms;
+}
+
+.page-leave-active {
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: 100ms;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+// transition end
+
+.full-width {
+  width: 100%;
+}
+
+.el-select.with-border input {
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.05);
+}
+
+.super-size.el-radio.is-bordered {
+  height: 48px;
+  padding: 16px 20px 0px 10px;
+}
+
+.super-size .el-input__inner {
+  height: 48px;
+  font-size: 16px;
+}
+
+.super-size textarea {
+  font-size: 16px;
+}
+
+input.no-box-shadow,
+select.no-box-shadow,
+textarea.no-box-shadow {
+  box-shadow: none !important;
+}
+
+.no-box-shadow input,
+.no-box-shadow select,
+.no-box-shadow textarea {
+  box-shadow: none !important;
+}
+
+input.match-el-theme:focus {
+  border: 1px solid $primary-color !important;
+}
+
+.input-with-icon-left input.hireo-control {
+  padding-left: 65px !important;
+}
+
+.input-with-icon-right input.hireo-control {
+  padding-right: 65px !important;
+}
+
+#wrapper {
+  background-color: $background-color;
+}
+
+.el-col {
+  margin-bottom: 20px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.issue-label {
+  color: white;
+  display: inline-block;
+  padding: 0px 20px;
+  border-radius: 11px;
+}
+.visibility_hidden {
+  visibility: hidden;
+}
+
+.no-right-padding .el-input__inner {
+  padding-right: 0 !important;
+}
+
+.el-form--label-top .el-form-item__label {
+  padding: 0%;
+}
+#navigation ul li {
+  a {
+    font-size: 17px;
+    i {
+      font-size: 17px;
+    }
+  }
+}
+
+.el-rate-medium {
+  .el-rate__icon {
+    font-size: 25px;
+  }
+
+  .el-rate__text {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+}
+
+#backtotop {
+  bottom: 360px !important;
+}
+#navigation ul li {
+  top: 4px;
+}

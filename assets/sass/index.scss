@@ -1,0 +1,24 @@
+:root {
+  --color: #243746;
+  --color-primary: #ae0957;
+  --color-secondary: #0e2233;
+  --bg: #f3f5f4;
+  --bg-secondary: #fff;
+  --border-color: #ddd;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// contains variables
+@import 'variables';
+
+// Origin HTML template styles
+@import 'hireo-theme';
+
+// element ui customized theme styles
+@import 'element-ui-theme';
+
+// your own styles
+@import 'custom';
