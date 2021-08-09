@@ -1,4 +1,4 @@
-# demo
+# Freelancing Job Platform. Nuxt/Vuex/SCSS . . .
 
 ## Build Setup
 
